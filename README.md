@@ -1,6 +1,6 @@
 # Aetheria: The AI Gaming Assistant
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/k-4-constantine/aetheria-the-ai-gaming-assistant)
 
 Aetheria is an AI-powered gaming assistant designed as a visually stunning, illustrative web application. It serves as a personal coach for gamers, providing tips, strategies, and analysis through an intuitive chat interface. The application leverages a powerful AI backend running on Cloudflare's serverless infrastructure to deliver real-time, helpful responses. The core of the application is a single-page chat view, where users can create multiple conversation sessions for different games or topics.
 
@@ -91,7 +91,7 @@ After deployment, you will get a URL for your live application. You will also ne
 
 Alternatively, you can deploy directly from your GitHub repository.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/k-4-constantine/aetheria-the-ai-gaming-assistant)
 
 ## Project Structure
 
