@@ -40,8 +40,10 @@ export const useChatStore = create<ChatState & ChatActions>()(
         set({ currentSessionId: latestSessionId });
         await get().loadHistory(latestSessionId);
       } else {
-        const { sessionId } = await chatService.createSession('New Game');
-        set({ currentSessionId: sessionId, hasUnsavedSession: true });
+        const res = await chatService.createSession('New Game');
+        if (res.success && res.data) {
+          set({ currentSessionId: res.data.sessionId, hasUnsavedSession: true });
+        }
         await get().loadSessions();
       }
       set({ isLoadingHistory: false });
